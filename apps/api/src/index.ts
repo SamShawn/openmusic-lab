@@ -2,8 +2,15 @@ import Fastify from 'fastify';
 import cors from '@fastify/cors';
 import jwt from '@fastify/jwt';
 import cookie from '@fastify/cookie';
-import 'dotenv/config';
+import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import authRoutes from './routes/auth.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+// 向上寻找根目录的 .env
+dotenv.config({ path: path.resolve(__dirname, '../../../.env') });
 
 const app = Fastify({ logger: true });
 
