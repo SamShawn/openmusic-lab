@@ -12,13 +12,10 @@ export default function Home() {
         >
           开始创作
         </a>
-        <a
-          href="/loras"
-          className="px-6 py-3 border border-gray-300 rounded-lg hover:bg-gray-50"
-        >
+        <a href="/loras" className="px-6 py-3 border border-gray-300 rounded-lg hover:bg-gray-50">
           浏览 LoRA
         </a>
       </div>
     </main>
-  )
+  );
 }

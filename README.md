@@ -46,22 +46,23 @@ pnpm dev
 ```
 
 访问：
+
 - 前端：http://localhost:3000
 - API：http://localhost:4000
 - 健康检查：http://localhost:4000/health
 
 ## 脚本
 
-| 命令 | 说明 |
-|---|---|
-| `pnpm dev` | 启动所有开发服务 |
-| `pnpm build` | 构建所有包 |
-| `pnpm lint` | 代码检查 |
-| `pnpm typecheck` | 类型检查 |
-| `pnpm test` | 运行测试 |
-| `pnpm db:migrate` | 运行数据库迁移 |
+| 命令               | 说明               |
+| ------------------ | ------------------ |
+| `pnpm dev`         | 启动所有开发服务   |
+| `pnpm build`       | 构建所有包         |
+| `pnpm lint`        | 代码检查           |
+| `pnpm typecheck`   | 类型检查           |
+| `pnpm test`        | 运行测试           |
+| `pnpm db:migrate`  | 运行数据库迁移     |
 | `pnpm db:generate` | 生成 Prisma client |
-| `pnpm db:studio` | 打开 Prisma Studio |
+| `pnpm db:studio`   | 打开 Prisma Studio |
 
 ## License
 
